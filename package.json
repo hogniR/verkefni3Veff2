@@ -1,0 +1,32 @@
+{
+  "name": "EvalAPI",
+  "description": "REST API for Evaluation APP",
+  "author": "Hölton",
+  "dependencies": {
+    "express": "3.x",
+    "nconf": "latest",
+    "mongoose": "latest",
+    "underscore": "~1.6.0",
+    "hat": "latest",
+    "bcrypt-nodejs": "latest",
+    "async": "~0.2.10"
+  },
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "license": "ISC"
+}
